@@ -1,76 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+   <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
-    
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-       <section id="container">
-    <header>
-        <div id="logo">
-            <h2>LAITH SALAH</h2>
-            <h4>CIS STUDENT</h4>
-            
-        </div>
-        
-        <div class="fb-button">
-            <span class="socials-text">
-                
-                    <div class="fb-share-button" data-href="https://www.facebook.com/laithnineteen/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Flaithnineteen%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-                
-            </span>
-            
-            
-            
-            
-        </div>
-    </header>
-    <section id="content">
-        <div id="profile">
-            <div class="about">
-                <div class="photo-inner">
-                    <ul>
-                        <li><img src="img/photo.jpg" alt=""></li>
-
-                    </ul>
-                </div>
-                 <h1>LAITH SALAH</h1>
-                <h3>CIS STUDENT</h3>
-                <br>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis suscipit molestias culpa velit fuga id, recusandae ea, explicabo nemo illum?
-                </p>
-            </div>
-             <ul class="personal-info">
-                    <li><Lable>Name</Lable><span>Laith Salah</span></li>
-                    <li><Lable>Birthday</Lable><span>7-July-1998</span></li>
-                    <li><Lable>Address</Lable><span>Haja Afifa</span></li>
-                    <li><Lable>Email</Lable><span class="world-wrap">Salahlayth.3@gmail.com</span></li>
-                    <li><Lable>Phone</Lable><span>+970595255***</span></li>
-                    <li><Lable>Website</Lable><span class="world-wrap">http://test.com</span></li>
-
-
-
-                </ul>
-        </div>
-            <nav class="menu">
-            <ul class="tabs">
-                <li><a href="index." class="tab-profile"><i><i class="fa fa-user" aria-hidden="true"></i></i>Profile</a>
-                <a href="resume.html"><i><i class="fa fa-wpexplorer" aria-hidden="true"></i></i>Resume</a></li>
+    <div class="header">
+  <h onclick="myFunction()">LAITH LOAI SALAH</h>
+  <br><br>
+  <img src="img/photo.jpg" alt="Personal image">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ducimus commodi odit, sequi illo cum aliquid nulla minus consectetur magni nesciunt ratione quasi natus voluptatibus quas, facere reiciendis. Qui, praesentium!</p>
+</div> 
+<section>
+    <div class="SKILLS">
+       <h1>SKILLS</h1>
+                       <div class="skill">
+                        <label class="skill-name">HTML</label>
+<progress id="prog" value="80" max="100"> 80% </progress>
+                   <label class="skill-name">JAVA</label>
+<progress id="prog" value="70" max="100"> 70% </progress>
+                   <label class="skill-name">C++</label>
+<progress id="prog" value="55" max="100"> 55% </progress>
+                   <label class="skill-name">PYTHON</label>
+<progress id="prog" value="40" max="100"> 40% </progress>
+                    </div>
+    </div>
+</section>
+<section>
+    <div class="work">
+        <div class="title"><h1>Work Experience</h1>
+           <ul>
+            <li>
+                <div class="date"><h3>Company 2025-2026</h3></div>
+                <div class="info"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequatur, est eius voluptas, ullam tempora nobis at mollitia, minus quam nemo odio nisi assumenda ipsum dolorum cumque iure perspiciatis! Reprehenderit.</p></div>
+            </li>
             </ul>
-        </nav>
-           </section>    
-    </section>  
+            <ul>
+            <li>
+                <div class="date"><h3>Company 2022-2024</h3></div>
+                <div class="info"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed, qui delectus impedit fugiat, iure saepe quas odit ut molestiae cumque fugit. Magnam pariatur quisquam, sit, labore obcaecati praesentium voluptatum!</p></div>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div class="Education" onmouseover="color(this)" onmouseout="normal(this)">
+       <div class="title" ><h1>Education</h1></div>
+        <ul>
+            <li>
+        <div class="place"><h3>An-Najah National University 2018-2022</h3></div>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quos quam laboriosam praesentium adipisci autem rem veritatis, doloribus atque inventore. Soluta quisquam reprehenderit, excepturi nihil ducimus animi fuga placeat ex.</p>
+            </li>
+        </ul>
+        <ul>
+            <li>
 
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="UrO5r5o5"></script>  
+                <div class="place"><h3>Islamic Highschool 2016-2017</h3></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus esse adipisci quaerat cupiditate maiores cumque aut recusandae autem necessitatibus. Ratione iste nisi explicabo pariatur, quaerat tempore sed ullam, totam quisquam.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<button class="print" onclick="window.print()">Print My CV</button>
 </body>
 </html>
+<script>
+function myFunction() {
+  alert("Welcome, please let me know if you have any questions");
+}
+    function color(x) {
+  x.style.color = "RED";
+}
+
+function normal(x) {
+  x.style.color = "BLACK";
+}
+</script>
